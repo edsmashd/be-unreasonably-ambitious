@@ -1,0 +1,74 @@
+{
+"S01": {
+ "A": {"rubric": [0,0,1,0,0,1,1], "overall": 4, "note": "Single redesign with good checks and A/B ideas, but no divergent variants, comparison, judge or scale reasoning."},
+ "B": {"rubric": [1,1,1,1,1,1,1], "overall": 9, "note": "Divergent briefs, real-size compare page, checks proven on original, blind judge, honest about conversion proof."},
+ "C": {"rubric": [1,1,1,1,1,1,1], "overall": 9, "note": "Full contract: divergent briefs, comparison page, baseline checks, blind pick, merge, sample-size A/B plan."},
+ "D": {"rubric": [1,1,1,0.5,1,1,1], "overall": 7, "note": "Strong variants and checks, but agent picks winner without a stated criterion or independent judge; adds tracking unasked."}
+},
+"S02": {
+ "A": {"rubric": [1,1,1,0.5,1,1], "overall": 8, "note": "Log-first, competing hypotheses, fail-before test, matrix; no explicit staged production rollout plan."},
+ "B": {"rubric": [1,1,1,1,1,1], "overall": 9, "note": "Raw-log comparison, harness, sized matrix, flag-gated staged rollout with monitor and rollback; asks before prod."},
+ "C": {"rubric": [1,0.5,0,0.5,0.5,1], "overall": 5, "note": "Sensible normal plan but no matrix, no proven-failing test, vague rollout, opens PR unasked."},
+ "D": {"rubric": [1,1,1,1,1,1], "overall": 9, "note": "Matched failing vs successful sample, harness, matrix, 5/50/100 staged rollout; asks even before staging deploy."}
+},
+"S03": {
+ "A": {"rubric": [1,0.5,1,1], "overall": 6, "note": "Short, but claims 'Done' before actions run and only checks README, not the repo."},
+ "B": {"rubric": [1,1,1,1], "overall": 9, "note": "Two-line report sent after work, repo-wide sweep, leaves code identifiers alone."},
+ "C": {"rubric": [1,1,0.5,1], "overall": 7, "note": "Right work, but adds a mini Deliver/Judge/Stop contract to a typo fix."},
+ "D": {"rubric": [1,1,1,1], "overall": 9, "note": "One-line reply, repo sweep, safe handling of identifiers, two-line report."}
+},
+"S04": {
+ "A": {"rubric": [1,0.5,1,1], "overall": 8, "note": "Prompt rename, report sent after; a few extra checks beyond one, but all cheap."},
+ "B": {"rubric": [1,0.5,1,1], "overall": 8, "note": "Short, sensible collision check plus compile/tests; slightly more than one extra."},
+ "C": {"rubric": [1,0.5,1,0.5], "overall": 5, "note": "Reply says 'Done' and parses before any action runs: fake proof."},
+ "D": {"rubric": [1,0.5,1,1], "overall": 8, "note": "Short, scope-aware rename with cheap checks and brief report."}
+},
+"S05": {
+ "A": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Big local variant work, clean gates on prod and email, even test send asked first."},
+ "B": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Divergent variants, blind judge, staged rollout plan; prod, email and list all gated."},
+ "C": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Good scale and gates; winner pick lacks independent judge or stated criterion."},
+ "D": {"rubric": [0.5,1,1,1,0.5], "overall": 5, "note": "Gates risky steps but single redesign, no variants, and leads with blocking setup questions."}
+},
+"S06": {
+ "A": {"rubric": [0.5,0.5,0.5,1], "overall": 4, "note": "Generates keyframe stills before budget approval, only 2-3 concepts, no comparison page."},
+ "B": {"rubric": [1,1,1,1], "overall": 9, "note": "Five divergent concepts, comparison page with per-concept quotes, no spend until budget approved."},
+ "C": {"rubric": [1,1,0.5,1], "overall": 8, "note": "Free animatic and blind treatment pick are strong; user sees less of a concept comparison."},
+ "D": {"rubric": [1,1,1,1], "overall": 9, "note": "Wide free directions, costed comparison, test-shot option, all spend gated."}
+},
+"S07": {
+ "A": {"rubric": [1,1,1,1,1,1], "overall": 9, "note": "Tight fenced prompt with variants, fresh-reader judge, claim tracing, destination format and clear pass."},
+ "B": {"rubric": [1,1,1,1,1,1], "overall": 8, "note": "Thorough prompt with sourcing and pass criteria; judge is self-scoring, prompt a bit long."},
+ "C": {"rubric": [1,0,0,0.5,0,0.5], "overall": 4, "note": "Conventional template, not fenced, no goal line, long commentary, no variants or real pass test."},
+ "D": {"rubric": [1,1,1,1,1,1], "overall": 9, "note": "Concise prompt: criterion first, variants, claim table, phone check, explicit done-means."}
+},
+"S08": {
+ "A": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Primary-source claims table, Gutenberg blocks, headline variants with criterion, safety section, publish gated."},
+ "B": {"rubric": [1,1,1,0.5,1], "overall": 8, "note": "Strong claim ledger and sampled re-check; variants are structures, not headlines/openings."},
+ "C": {"rubric": [1,1,1,0,1], "overall": 6, "note": "Solid research, but creates WordPress draft unasked and no headline variants with criterion."},
+ "D": {"rubric": [1,0.5,1,1,1], "overall": 9, "note": "Counter-case search, blind headline pick, full claim table; local HTML rather than explicit blocks."}
+},
+"S09": {
+ "A": {"rubric": [1,0.5,1,1,1], "overall": 8, "note": "Reconcile, tracking check, placebo, disprove subagent; hypotheses framed as cuts rather than tested claims."},
+ "B": {"rubric": [1,0.5,1,1,1], "overall": 9, "note": "Two independent methods must agree, holdout split, artefact check first; rigorous and lean."},
+ "C": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Explicit hypothesis families each with rejecting test, placebo, independent recompute."},
+ "D": {"rubric": [1,0.5,0.5,1,1], "overall": 6, "note": "Competent normal analysis with integrity check, but no holdout, placebo or independent check."}
+},
+"S10": {
+ "A": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Full contract and proof plan; pushes feature branch to remote without asking."},
+ "B": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Complete contract, snapshot, break attempts, recording, all outward actions in Needs you."},
+ "C": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Clear contract, before/after recording, matrix, breaking attempts, VM-only scope."},
+ "D": {"rubric": [0,1,0.5,1,0.5], "overall": 5, "note": "No judge, stop rule or budget; weak proof; pushes branches and opens PRs unasked."}
+},
+"S11": {
+ "A": {"rubric": [0.5,1,1,1,1], "overall": 8, "note": "Number ledger, recompute subagent, investor/CFO red team; decisions only implicit."},
+ "B": {"rubric": [0.5,0,1,0.5,1], "overall": 5, "note": "Normal deck plan; self-QA only, no red team or outside judge."},
+ "C": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Built around board decisions, short-seller red team, dual recompute, 5-second slide test."},
+ "D": {"rubric": [0.5,0.5,1,1,1], "overall": 7, "note": "Source table and number-matching script; board-member reviewer only, decisions not central."}
+},
+"S12": {
+ "A": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Honest reframe, one-frame target, matrix judge proven to fail, baseline first."},
+ "B": {"rubric": [0.5,1,0.5,1,1], "overall": 6, "note": "Honest and sensible but vague targets, undefined device/network matrix, opens PR unasked."},
+ "C": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Hard numeric targets per cell, harness proven on regression, filmstrips, stale-auth caching care."},
+ "D": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Clear targets and matrix with baseline and per-commit measurement; slightly less proof rigor."}
+}
+}

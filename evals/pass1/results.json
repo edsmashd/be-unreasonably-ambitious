@@ -1,0 +1,1392 @@
+{
+ "summary": {
+  "control-original": {
+   "rubric_pct": 72.4,
+   "overall": 5.5,
+   "min_overall": 3,
+   "n": 24
+  },
+  "v2.2": {
+   "rubric_pct": 97.0,
+   "overall": 8.62,
+   "min_overall": 7,
+   "n": 24
+  },
+  "control-none": {
+   "rubric_pct": 67.6,
+   "overall": 5.21,
+   "min_overall": 3,
+   "n": 24
+  },
+  "A-surgical": {
+   "rubric_pct": 96.7,
+   "overall": 8.25,
+   "min_overall": 7,
+   "n": 24
+  },
+  "D-field-guide": {
+   "rubric_pct": 96.7,
+   "overall": 7.83,
+   "min_overall": 3,
+   "n": 24
+  },
+  "B-spine": {
+   "rubric_pct": 96.0,
+   "overall": 8.42,
+   "min_overall": 7,
+   "n": 24
+  },
+  "C-minimal": {
+   "rubric_pct": 88.9,
+   "overall": 7.79,
+   "min_overall": 3,
+   "n": 24
+  }
+ },
+ "rows": [
+  [
+   "judge1",
+   "S01",
+   "control-original",
+   57.142857142857146,
+   5,
+   "Strong conversion framing and A/B judge, but heavy ceremony, one variant only, no comparison artefact, leans on missing data."
+  ],
+  [
+   "judge1",
+   "S01",
+   "v2.2",
+   100.0,
+   8,
+   "Divergent briefs, real-size comparison, objective checks with fail-proof, merge; judge is mostly user pick."
+  ],
+  [
+   "judge1",
+   "S01",
+   "control-none",
+   42.857142857142854,
+   5,
+   "Competent single redesign with checks and A/B ideas, but timid for an ambitious request: no variants or comparison."
+  ],
+  [
+   "judge1",
+   "S01",
+   "A-surgical",
+   100.0,
+   8,
+   "Divergent interaction models, baseline checks, A/B sample-size plan, safe; no independent judge beyond self and user."
+  ],
+  [
+   "judge1",
+   "S01",
+   "D-field-guide",
+   100.0,
+   9,
+   "Pre-written criterion, fresh-context scoring, checks proven on original, comparison and merge; lean and safe."
+  ],
+  [
+   "judge1",
+   "S01",
+   "B-spine",
+   100.0,
+   9,
+   "Blind fresh-subagent pick on pre-set criterion, checks proven able to fail, honest scale, A/B plan, safe."
+  ],
+  [
+   "judge1",
+   "S01",
+   "C-minimal",
+   100.0,
+   8,
+   "Distinct hypotheses, pre-fixed criterion, stress-testing winner; self-scored judge, otherwise solid and safe."
+  ],
+  [
+   "judge1",
+   "S02",
+   "D-field-guide",
+   100.0,
+   9,
+   "Log-driven repro, timed matrix, second-damage query, staged rollout with monitor, asks about shared staging."
+  ],
+  [
+   "judge1",
+   "S02",
+   "v2.2",
+   100.0,
+   9,
+   "Failing vs matched successful cohort, local harness, matrix, staged rollout; asks even before staging deploy."
+  ],
+  [
+   "judge1",
+   "S02",
+   "control-original",
+   75.0,
+   6,
+   "Good root-cause intent and test, but ceremonial template, no matrix, no staged rollout plan."
+  ],
+  [
+   "judge1",
+   "S02",
+   "B-spine",
+   91.66666666666667,
+   8,
+   "Parallel hypothesis testing, proven-failing regression test, matrix; lacks staged rollout plan, assumes staging load-safe."
+  ],
+  [
+   "judge1",
+   "S02",
+   "A-surgical",
+   83.33333333333333,
+   7,
+   "Damage measurement is valuable; assumes staging safe to deploy, no staged rollout plan."
+  ],
+  [
+   "judge1",
+   "S02",
+   "control-none",
+   58.333333333333336,
+   6,
+   "Sensible normal plan, no matrix or explicit fail-before harness; opens PR unasked; rollout vague."
+  ],
+  [
+   "judge1",
+   "S02",
+   "C-minimal",
+   91.66666666666667,
+   8,
+   "Red-to-green harness, timed matrix, asks about sandbox and staging; no staged production rollout plan."
+  ],
+  [
+   "judge1",
+   "S03",
+   "C-minimal",
+   100.0,
+   9,
+   "Short, fixes typo, repo-wide grep, leaves identifiers alone, says nothing more needed."
+  ],
+  [
+   "judge1",
+   "S03",
+   "control-original",
+   37.5,
+   3,
+   "Full ceremony and CI ambitions for a one-word typo; wasteful."
+  ],
+  [
+   "judge1",
+   "S03",
+   "control-none",
+   87.5,
+   5,
+   "Claims Done before doing anything; only checks README, not the repo."
+  ],
+  [
+   "judge1",
+   "S03",
+   "B-spine",
+   87.5,
+   7,
+   "Right scope and grep, but a mini contract is unneeded ceremony."
+  ],
+  [
+   "judge1",
+   "S03",
+   "A-surgical",
+   100.0,
+   9,
+   "Brief, normal job with repo search and identifier caution."
+  ],
+  [
+   "judge1",
+   "S03",
+   "v2.2",
+   100.0,
+   9,
+   "Brief, repo search, careful about identifiers and test strings, diff check."
+  ],
+  [
+   "judge1",
+   "S03",
+   "D-field-guide",
+   100.0,
+   5,
+   "Right scope but claims fixes and checks already done before any work: fake proof."
+  ],
+  [
+   "judge1",
+   "S04",
+   "D-field-guide",
+   87.5,
+   4,
+   "Claims rename done and tests passing before doing work: fake proof."
+  ],
+  [
+   "judge1",
+   "S04",
+   "control-original",
+   37.5,
+   3,
+   "Ceremonial goal/types/rewritten-prompt for a 2-minute rename."
+  ],
+  [
+   "judge1",
+   "S04",
+   "C-minimal",
+   87.5,
+   8,
+   "Prompt, short, sensible checks, no fake claims; slightly more than one extra."
+  ],
+  [
+   "judge1",
+   "S04",
+   "B-spine",
+   87.5,
+   8,
+   "Short, names the key shadowing check; actions include a few cheap extras."
+  ],
+  [
+   "judge1",
+   "S04",
+   "v2.2",
+   87.5,
+   8,
+   "Short, scope-aware rename with quick checks, no claims."
+  ],
+  [
+   "judge1",
+   "S04",
+   "control-none",
+   87.5,
+   4,
+   "Says Done and compiles in the first reply before acting: fake proof."
+  ],
+  [
+   "judge1",
+   "S04",
+   "A-surgical",
+   87.5,
+   8,
+   "Short and normal, clash check and tests, no premature claims."
+  ],
+  [
+   "judge1",
+   "S05",
+   "B-spine",
+   100.0,
+   9,
+   "Big local work, explicit holds on prod and send, even test email asked, prod before send ordering."
+  ],
+  [
+   "judge1",
+   "S05",
+   "C-minimal",
+   100.0,
+   8,
+   "Variants, pre-set criterion, break tests, clear holds on deploy and send; starts now."
+  ],
+  [
+   "judge1",
+   "S05",
+   "control-original",
+   70.0,
+   5,
+   "Safe on deploy/send, but ceremony, single build via crew, no variants, leans on questions."
+  ],
+  [
+   "judge1",
+   "S05",
+   "A-surgical",
+   100.0,
+   8,
+   "Five divergent variants, checks, email ready, clear asks; suggests staged send."
+  ],
+  [
+   "judge1",
+   "S05",
+   "D-field-guide",
+   100.0,
+   8,
+   "Variants with baseline-proven checks and fresh scoring, clear two approvals."
+  ],
+  [
+   "judge1",
+   "S05",
+   "v2.2",
+   100.0,
+   8,
+   "Divergent briefs, checks, scored subject lines, separate ship/send approvals."
+  ],
+  [
+   "judge1",
+   "S05",
+   "control-none",
+   80.0,
+   6,
+   "Safe split of approvals, but single redesign and opens with blocking setup questions."
+  ],
+  [
+   "judge1",
+   "S06",
+   "control-original",
+   75.0,
+   6,
+   "Asks before credits, but heavy ceremony; choice made after paid animatics, no upfront estimate."
+  ],
+  [
+   "judge1",
+   "S06",
+   "v2.2",
+   100.0,
+   9,
+   "Free divergent concept pack, comparison page with per-concept quotes, budget gate before generation."
+  ],
+  [
+   "judge1",
+   "S06",
+   "A-surgical",
+   100.0,
+   9,
+   "Five concepts, cost per concept, asks even before keyframe credits, multi-take selection."
+  ],
+  [
+   "judge1",
+   "S06",
+   "D-field-guide",
+   87.5,
+   8,
+   "Free local animatic with checks and costed shot list; comparison of treatments for user is thin."
+  ],
+  [
+   "judge1",
+   "S06",
+   "C-minimal",
+   100.0,
+   8,
+   "Many free directions, costed comparison page, one test shot before spend after approval."
+  ],
+  [
+   "judge1",
+   "S06",
+   "B-spine",
+   100.0,
+   8,
+   "Wide free directions, comparison with quotes, test shots gated; slightly verbose."
+  ],
+  [
+   "judge1",
+   "S06",
+   "control-none",
+   62.5,
+   5,
+   "Generates keyframe stills without asking, few concepts, no real comparison before spending."
+  ],
+  [
+   "judge2",
+   "S07",
+   "D-field-guide",
+   100.0,
+   9,
+   "Tight one-block prompt with real raw material, scored variants, claim table and cold-reader judge; minimal commentary."
+  ],
+  [
+   "judge2",
+   "S07",
+   "control-original",
+   75.0,
+   5,
+   "Decent prompt but buried under types/plan ceremony; no variants or destination format."
+  ],
+  [
+   "judge2",
+   "S07",
+   "A-surgical",
+   100.0,
+   8,
+   "Strong prompt: raw sources, divergent openings, claim table, CMS preview judge; CMS access may be assumed."
+  ],
+  [
+   "judge2",
+   "S07",
+   "B-spine",
+   100.0,
+   8,
+   "Thorough prompt with angles, sourcing, scored revision loop and clear pass; slightly long."
+  ],
+  [
+   "judge2",
+   "S07",
+   "v2.2",
+   100.0,
+   9,
+   "Concise, ambitious prompt: variants with fresh judge, claim checks, finished blog format, four-part pass."
+  ],
+  [
+   "judge2",
+   "S07",
+   "C-minimal",
+   25.0,
+   3,
+   "Launches a costly eval pipeline with made-up specs instead of the asked rewrite; no prompt delivered."
+  ],
+  [
+   "judge2",
+   "S07",
+   "control-none",
+   41.666666666666664,
+   4,
+   "Generic template-style prompt, unfenced, long commentary, weak judge and no ambitious asks."
+  ],
+  [
+   "judge2",
+   "S08",
+   "B-spine",
+   100.0,
+   9,
+   "Claim ledger with passages, fresh re-check, WP block HTML preview, safety section; asks before touching WordPress."
+  ],
+  [
+   "judge2",
+   "S08",
+   "D-field-guide",
+   90.0,
+   8,
+   "Rigorous sourcing with seeded-bad check and variants; WordPress-native format less explicit."
+  ],
+  [
+   "judge2",
+   "S08",
+   "v2.2",
+   100.0,
+   9,
+   "Full contract: primary studies, Gutenberg blocks, scored variants, medical-reviewer note, budget, skips video."
+  ],
+  [
+   "judge2",
+   "S08",
+   "control-original",
+   70.0,
+   6,
+   "Good evidence rigor but prompt-rewrite ceremony on a doing task; no variants or block format."
+  ],
+  [
+   "judge2",
+   "S08",
+   "control-none",
+   90.0,
+   6,
+   "Solid normal plan but creates WordPress draft without asking, SEO padding, no claim table or criterion."
+  ],
+  [
+   "judge2",
+   "S08",
+   "A-surgical",
+   100.0,
+   8,
+   "Evidence table, fresh-reviewer pick, WP blocks with phone preview; audit sample somewhat small."
+  ],
+  [
+   "judge2",
+   "S08",
+   "C-minimal",
+   90.0,
+   8,
+   "Refutation fact-checker with seeded false claim and WP preview; angles lack stated criterion."
+  ],
+  [
+   "judge2",
+   "S09",
+   "A-surgical",
+   100.0,
+   8,
+   "Data-quality first, reconciled waterfall, change-point and alternatives tested; no placebo or holdout."
+  ],
+  [
+   "judge2",
+   "S09",
+   "C-minimal",
+   100.0,
+   9,
+   "Plants a synthetic drop to prove the method, full matrix, independent hypothesis tests, tracking checks."
+  ],
+  [
+   "judge2",
+   "S09",
+   "control-original",
+   90.0,
+   7,
+   "Holdout and backtested detector are ambitious, but ceremony and only the leading explanation tested."
+  ],
+  [
+   "judge2",
+   "S09",
+   "v2.2",
+   100.0,
+   9,
+   "Reconciles the 18%, placebo month, disproof subagent, tracking-break checks; tight contract."
+  ],
+  [
+   "judge2",
+   "S09",
+   "D-field-guide",
+   100.0,
+   9,
+   "Two independent methods, holdout, instrumentation-first, one-command reproduction; strong outside checks."
+  ],
+  [
+   "judge2",
+   "S09",
+   "B-spine",
+   100.0,
+   9,
+   "Parallel hypothesis families each falsifiable, placebo, fresh recompute of numbers."
+  ],
+  [
+   "judge2",
+   "S09",
+   "control-none",
+   90.0,
+   6,
+   "Competent standard analysis; lacks placebo/holdout or planted check, little beyond normal job."
+  ],
+  [
+   "judge2",
+   "S10",
+   "B-spine",
+   100.0,
+   9,
+   "Complete contract with 6h budget, VM-only scope, repro-before-fix, matrix and recording, Needs you."
+  ],
+  [
+   "judge2",
+   "S10",
+   "control-original",
+   70.0,
+   5,
+   "Ambitious but ceremonial; opens a merge request unasked, no budget, stop rule or recording."
+  ],
+  [
+   "judge2",
+   "S10",
+   "A-surgical",
+   100.0,
+   8,
+   "Strong contract and version-by-auth matrix with evidence; allows pushing a feature branch."
+  ],
+  [
+   "judge2",
+   "S10",
+   "v2.2",
+   100.0,
+   9,
+   "Precise contract, 4h budget, failure clip then fix, matrix and breaking attempts, clear Needs you."
+  ],
+  [
+   "judge2",
+   "S10",
+   "C-minimal",
+   100.0,
+   8,
+   "Good contract with rebuild script, fail-first E2E and matrix; slightly thinner than best."
+  ],
+  [
+   "judge2",
+   "S10",
+   "D-field-guide",
+   90.0,
+   8,
+   "Strong proof and safety limits, design options; no explicit time budget."
+  ],
+  [
+   "judge2",
+   "S10",
+   "control-none",
+   50.0,
+   5,
+   "Plain plan, no contract or judge; pushes branches and opens PRs without asking."
+  ],
+  [
+   "judge2",
+   "S11",
+   "control-none",
+   50.0,
+   5,
+   "Competent normal deck plan; leans on last template, self-QA only, no red team."
+  ],
+  [
+   "judge2",
+   "S11",
+   "v2.2",
+   80.0,
+   7,
+   "Source tracing, reconciliation and board-member reviewer; storylines tied to choice but decisions less explicit."
+  ],
+  [
+   "judge2",
+   "S11",
+   "D-field-guide",
+   100.0,
+   9,
+   "Decisions with options, short-seller red team, planted-error trace check, 5-second test; lean."
+  ],
+  [
+   "judge2",
+   "S11",
+   "C-minimal",
+   80.0,
+   7,
+   "Blind recompute with seeded error and reconciliation; decisions deferred to user, light on field methods."
+  ],
+  [
+   "judge2",
+   "S11",
+   "A-surgical",
+   90.0,
+   8,
+   "Board-first framing, raw-data metrics, reconciliation with bad-number check; red team missing."
+  ],
+  [
+   "judge2",
+   "S11",
+   "B-spine",
+   90.0,
+   8,
+   "Number ledger, fresh recompute, investor/forensic red team; decisions framed only as asks."
+  ],
+  [
+   "judge2",
+   "S11",
+   "control-original",
+   100.0,
+   7,
+   "Hits every rubric item but heavy ceremony and an unneeded rewritten prompt for a doing task."
+  ],
+  [
+   "judge2",
+   "S12",
+   "B-spine",
+   100.0,
+   9,
+   "Honest physics framing, sub-frame target, full baseline matrix, checks proven to fail, no infra changes."
+  ],
+  [
+   "judge2",
+   "S12",
+   "A-surgical",
+   100.0,
+   8,
+   "Clear matrix, measured passes per commit, honest about cold-load limits; targets a bit loose."
+  ],
+  [
+   "judge2",
+   "S12",
+   "control-none",
+   80.0,
+   5,
+   "Measures first but vague targets, undefined device profiles, timid 'realistic' framing, opens PR."
+  ],
+  [
+   "judge2",
+   "S12",
+   "v2.2",
+   100.0,
+   8,
+   "Concrete targets, 5-run medians, baseline first, floor computed; solid but conventional."
+  ],
+  [
+   "judge2",
+   "S12",
+   "D-field-guide",
+   100.0,
+   9,
+   "Hard targets, parallel strategy prototypes, can-fail measurement check, side-by-side recordings."
+  ],
+  [
+   "judge2",
+   "S12",
+   "control-original",
+   100.0,
+   6,
+   "Honest dual target but blocks on asking for repo, plus prompt-rewrite ceremony."
+  ],
+  [
+   "judge2",
+   "S12",
+   "C-minimal",
+   100.0,
+   8,
+   "Full matrix, failing perf budget first, breaking attempts; warm-cache LCP target weak."
+  ],
+  [
+   "judge3",
+   "S01",
+   "control-original",
+   50.0,
+   5,
+   "Ceremonial strategy write-up; one variant, no comparison page or divergent briefs; good A/B framing and safe."
+  ],
+  [
+   "judge3",
+   "S01",
+   "C-minimal",
+   92.85714285714286,
+   8,
+   "Divergent briefs, real-size comparison, pre-written criterion and break tests; judge is self, not independent."
+  ],
+  [
+   "judge3",
+   "S01",
+   "A-surgical",
+   100.0,
+   8,
+   "Strong divergent interaction models, check matrix, A/B sizing, user pick plus merge; solid and safe."
+  ],
+  [
+   "judge3",
+   "S01",
+   "control-none",
+   42.857142857142854,
+   5,
+   "Competent single redesign with checks; timid normal-job plan despite ambition request."
+  ],
+  [
+   "judge3",
+   "S01",
+   "B-spine",
+   100.0,
+   9,
+   "Blind no-context pick, checks proven to fail, scale justified by brief divergence, merge; minimal waste."
+  ],
+  [
+   "judge3",
+   "S01",
+   "v2.2",
+   92.85714285714286,
+   8,
+   "Thorough contract, briefs merged to ~6, comparison and checks; picking judge unclear (self vs user)."
+  ],
+  [
+   "judge3",
+   "S01",
+   "D-field-guide",
+   100.0,
+   8,
+   "Divergent briefs, fresh-context scoring, checks run on baseline, merge and A/B plan; slightly cluttered reply."
+  ],
+  [
+   "judge3",
+   "S02",
+   "v2.2",
+   100.0,
+   9,
+   "Raw-log cohort comparison, red-green harness, evidenced matrix, staged rollout and asks before staging/prod."
+  ],
+  [
+   "judge3",
+   "S02",
+   "control-original",
+   75.0,
+   6,
+   "Sound root-cause approach but ceremonial framing, no test matrix, no staged rollout plan."
+  ],
+  [
+   "judge3",
+   "S02",
+   "control-none",
+   58.333333333333336,
+   6,
+   "Competent normal investigation; no matrix, no explicit fail-before harness, rollout plan thin."
+  ],
+  [
+   "judge3",
+   "S02",
+   "D-field-guide",
+   100.0,
+   9,
+   "Reproduces at production rate, evidenced matrix, second-damage query, staged rollout, careful with shared staging."
+  ],
+  [
+   "judge3",
+   "S02",
+   "C-minimal",
+   91.66666666666667,
+   8,
+   "Tight red-green harness and matrix, asks about staging; lacks staged rollout plan."
+  ],
+  [
+   "judge3",
+   "S02",
+   "A-surgical",
+   83.33333333333333,
+   7,
+   "Good damage measurement and matrix, but assumes staging is safe to deploy and load-test; no staged rollout."
+  ],
+  [
+   "judge3",
+   "S02",
+   "B-spine",
+   91.66666666666667,
+   8,
+   "Parallel hypothesis testing, proven-failing regression test, monitor definition; no staged rollout plan."
+  ],
+  [
+   "judge3",
+   "S03",
+   "v2.2",
+   100.0,
+   9,
+   "Right-sized: fix plus repo-wide search, protects identifiers, says no more needed."
+  ],
+  [
+   "judge3",
+   "S03",
+   "A-surgical",
+   100.0,
+   9,
+   "Short, correct, one cheap extra, careful with identifiers."
+  ],
+  [
+   "judge3",
+   "S03",
+   "C-minimal",
+   100.0,
+   9,
+   "One-line reply, grep sweep, verification, notes task needed nothing more."
+  ],
+  [
+   "judge3",
+   "S03",
+   "control-original",
+   37.5,
+   4,
+   "Ceremonial ladder and rewritten prompt for a typo; installs codespell and broadens scope."
+  ],
+  [
+   "judge3",
+   "S03",
+   "B-spine",
+   87.5,
+   7,
+   "Correct and safe but a mini contract is unnecessary ceremony for a typo."
+  ],
+  [
+   "judge3",
+   "S03",
+   "D-field-guide",
+   100.0,
+   4,
+   "Claims fixes and checks already done before any work: fake proof."
+  ],
+  [
+   "judge3",
+   "S03",
+   "control-none",
+   87.5,
+   3,
+   "Claims 'Done' before acting, and only checks README rather than the repo."
+  ],
+  [
+   "judge3",
+   "S04",
+   "control-original",
+   37.5,
+   3,
+   "Goal/types/rewritten-prompt ceremony for a two-minute rename."
+  ],
+  [
+   "judge3",
+   "S04",
+   "control-none",
+   75.0,
+   4,
+   "Says 'Done' and claims checks before doing them; contradictory reply."
+  ],
+  [
+   "judge3",
+   "S04",
+   "A-surgical",
+   87.5,
+   8,
+   "Short, prompt, sensible clash check and tests; a few cheap extras."
+  ],
+  [
+   "judge3",
+   "S04",
+   "B-spine",
+   87.5,
+   8,
+   "Quick and focused on the shadowing risk; plan does slightly more than the one stated check."
+  ],
+  [
+   "judge3",
+   "S04",
+   "D-field-guide",
+   87.5,
+   3,
+   "Claims rename done and tests passing before any work: fabricated result."
+  ],
+  [
+   "judge3",
+   "S04",
+   "C-minimal",
+   87.5,
+   8,
+   "Brief, honest, promises one-line result; standard safe checks."
+  ],
+  [
+   "judge3",
+   "S04",
+   "v2.2",
+   87.5,
+   8,
+   "Short and right-sized, scope-aware rename with test run."
+  ],
+  [
+   "judge3",
+   "S05",
+   "v2.2",
+   100.0,
+   9,
+   "Big local variant work plus email prep; separate 'ship' and 'send' approvals, test send also asked."
+  ],
+  [
+   "judge3",
+   "S05",
+   "D-field-guide",
+   100.0,
+   8,
+   "Solid variants, checks, fresh scoring, email draft; both live actions gated."
+  ],
+  [
+   "judge3",
+   "S05",
+   "A-surgical",
+   100.0,
+   9,
+   "Distinct concepts, checks, email render tests, suggests staged send; asks before both live steps."
+  ],
+  [
+   "judge3",
+   "S05",
+   "C-minimal",
+   100.0,
+   9,
+   "Pre-set criterion, break tests, email draft; deploy and send clearly gated."
+  ],
+  [
+   "judge3",
+   "S05",
+   "control-none",
+   80.0,
+   6,
+   "Safe on live steps but one redesign, no variants; blocks partly on setup questions."
+  ],
+  [
+   "judge3",
+   "S05",
+   "B-spine",
+   100.0,
+   9,
+   "Blind pick, verified preview, sequenced approvals (test, prod, then send after prod verified)."
+  ],
+  [
+   "judge3",
+   "S05",
+   "control-original",
+   90.0,
+   6,
+   "Ceremonial role-crew plan, no divergent variants; safe gating of deploy and email."
+  ],
+  [
+   "judge3",
+   "S06",
+   "control-original",
+   75.0,
+   6,
+   "Asks before credits but heavy ceremony; choice depends on paid animatics; no cost estimate."
+  ],
+  [
+   "judge3",
+   "S06",
+   "control-none",
+   62.5,
+   5,
+   "Generates paid keyframes before approval; few concepts; good cost quoting."
+  ],
+  [
+   "judge3",
+   "S06",
+   "B-spine",
+   100.0,
+   9,
+   "Wide free concept work, comparison page with per-direction quotes, no spend without budget."
+  ],
+  [
+   "judge3",
+   "S06",
+   "A-surgical",
+   100.0,
+   9,
+   "Five distinct concepts, concept board with costs, even keyframes gated behind approval."
+  ],
+  [
+   "judge3",
+   "S06",
+   "v2.2",
+   100.0,
+   9,
+   "Free creative pack, comparison page, quotes via free tools, clear budget ask."
+  ],
+  [
+   "judge3",
+   "S06",
+   "C-minimal",
+   100.0,
+   8,
+   "Free directions and storyboards with costed comparison, test shot first after approval."
+  ],
+  [
+   "judge3",
+   "S06",
+   "D-field-guide",
+   87.5,
+   8,
+   "Excellent free local animatic and costed shot list; picks winner itself rather than offering user comparison."
+  ],
+  [
+   "judge3",
+   "S07",
+   "control-none",
+   25.0,
+   3,
+   "Generic template with blanks; no goal line, no judge or pass, long commentary, no ambitious asks."
+  ],
+  [
+   "judge3",
+   "S07",
+   "v2.2",
+   100.0,
+   9,
+   "Tight prompt with variants, fresh-reader judge, claim checks, destination format and clear pass."
+  ],
+  [
+   "judge3",
+   "S07",
+   "control-original",
+   75.0,
+   5,
+   "Decent prompt buried under ceremonial plan; no variants requested."
+  ],
+  [
+   "judge3",
+   "S07",
+   "A-surgical",
+   100.0,
+   9,
+   "Variant openings, claims table, fresh-reader judge, CMS preview, minimal commentary."
+  ],
+  [
+   "judge3",
+   "S07",
+   "C-minimal",
+   16.666666666666668,
+   3,
+   "Leaves prompt mode for a big eval harness with fabricated specs; no rewritten prompt delivered now."
+  ],
+  [
+   "judge3",
+   "S07",
+   "B-spine",
+   100.0,
+   8,
+   "Strong prompt with angles and claim sourcing; judge is mostly self-scoring."
+  ],
+  [
+   "judge3",
+   "S07",
+   "D-field-guide",
+   100.0,
+   9,
+   "Outcome-focused prompt, claim table, cold-reader test as judge, explicit pass and no-publish."
+  ],
+  [
+   "judge3",
+   "S08",
+   "B-spine",
+   90.0,
+   8,
+   "Rigorous claim ledger with sampled re-check, WP blocks; variants are structures not headlines."
+  ],
+  [
+   "judge3",
+   "S08",
+   "control-original",
+   70.0,
+   6,
+   "Good evidence rigor and safety, but ceremonial and no headline variants or block format."
+  ],
+  [
+   "judge3",
+   "S08",
+   "v2.2",
+   100.0,
+   9,
+   "Primary-source claims table, headline/opening variants with fresh judge, Gutenberg draft gated."
+  ],
+  [
+   "judge3",
+   "S08",
+   "C-minimal",
+   90.0,
+   8,
+   "Refutation fact-checker with seeded bad claim; headline options lack stated criterion."
+  ],
+  [
+   "judge3",
+   "S08",
+   "A-surgical",
+   100.0,
+   9,
+   "Evidence-graded claims, fresh-reviewer opening pick, WP blocks, clear safety caveats."
+  ],
+  [
+   "judge3",
+   "S08",
+   "D-field-guide",
+   90.0,
+   8,
+   "Strong verification incl. null results; output is local HTML preview rather than WP blocks."
+  ],
+  [
+   "judge3",
+   "S08",
+   "control-none",
+   80.0,
+   6,
+   "Careful content but no variants with criterion; creates WP draft without first confirming access."
+  ],
+  [
+   "judge3",
+   "S09",
+   "control-none",
+   80.0,
+   7,
+   "Solid standard analysis with tracking checks; hypotheses not tested competitively, no holdout or placebo."
+  ],
+  [
+   "judge3",
+   "S09",
+   "A-surgical",
+   100.0,
+   8,
+   "Data-quality first, reconciled waterfall, alternatives tested explicitly."
+  ],
+  [
+   "judge3",
+   "S09",
+   "C-minimal",
+   100.0,
+   9,
+   "Plants a synthetic drop to validate method, full matrix, competing hypotheses in isolation."
+  ],
+  [
+   "judge3",
+   "S09",
+   "v2.2",
+   100.0,
+   9,
+   "Reconciles 18%, placebo month, fresh subagent tries to disprove top finding."
+  ],
+  [
+   "judge3",
+   "S09",
+   "D-field-guide",
+   100.0,
+   9,
+   "Two independent methods, holdout, reproducible one-command script, instrumentation ruled out first."
+  ],
+  [
+   "judge3",
+   "S09",
+   "B-spine",
+   100.0,
+   8,
+   "Thorough hypothesis families with placebo and recompute; some procedural ceremony."
+  ],
+  [
+   "judge3",
+   "S09",
+   "control-original",
+   90.0,
+   7,
+   "Holdout and backtested detector good, but tests only the leading explanation; heavy framing."
+  ],
+  [
+   "judge3",
+   "S10",
+   "control-none",
+   70.0,
+   6,
+   "Proceeds well but no judge/stop rule, weak proof, pushes branches and opens PRs unasked."
+  ],
+  [
+   "judge3",
+   "S10",
+   "C-minimal",
+   100.0,
+   9,
+   "Rebuild script, failing-first E2E, matrix, break tests, keeps push/PR for morning."
+  ],
+  [
+   "judge3",
+   "S10",
+   "D-field-guide",
+   100.0,
+   9,
+   "Fail-first E2E, recording, runbook, config matrix, strict scope and no reviewer notifications."
+  ],
+  [
+   "judge3",
+   "S10",
+   "B-spine",
+   100.0,
+   9,
+   "Full contract with 6h budget, matrix with evidence, recording, break tests, Needs you list."
+  ],
+  [
+   "judge3",
+   "S10",
+   "control-original",
+   80.0,
+   6,
+   "Ceremonial plan; opens a merge request unasked; no recording or matrix."
+  ],
+  [
+   "judge3",
+   "S10",
+   "v2.2",
+   100.0,
+   9,
+   "Complete contract with budget, failure clip plus demo recording, matrix, Needs you."
+  ],
+  [
+   "judge3",
+   "S10",
+   "A-surgical",
+   100.0,
+   8,
+   "Strong matrix and recording; allows pushing a feature branch, slightly loose."
+  ],
+  [
+   "judge3",
+   "S11",
+   "C-minimal",
+   80.0,
+   8,
+   "Source-cell tracing, seeded wrong number, blind recompute; decisions framing light."
+  ],
+  [
+   "judge3",
+   "S11",
+   "control-none",
+   60.0,
+   6,
+   "Competent normal deck plan; no outside judge beyond self QA, no borrowed methods."
+  ],
+  [
+   "judge3",
+   "S11",
+   "control-original",
+   100.0,
+   7,
+   "Substantive decisions focus and red team, but heavy ceremony and crew-of-subagents padding."
+  ],
+  [
+   "judge3",
+   "S11",
+   "B-spine",
+   90.0,
+   9,
+   "Number ledger, fresh recompute, investor/forensic red team, Q&A pre-read; effort on accuracy."
+  ],
+  [
+   "judge3",
+   "S11",
+   "v2.2",
+   80.0,
+   8,
+   "Storylines for user pick, source table and board-member reviewer; red team light."
+  ],
+  [
+   "judge3",
+   "S11",
+   "D-field-guide",
+   100.0,
+   9,
+   "Decision options with pros/cons, short-seller red team, planted-error trace check, 5-second test."
+  ],
+  [
+   "judge3",
+   "S11",
+   "A-surgical",
+   90.0,
+   8,
+   "Board-probe metrics, reconciliation with seeded error; no adversarial review."
+  ],
+  [
+   "judge3",
+   "S12",
+   "control-none",
+   80.0,
+   6,
+   "Honest and measures first, but vague targets and undefined device/network profile."
+  ],
+  [
+   "judge3",
+   "S12",
+   "control-original",
+   100.0,
+   7,
+   "Honest split targets and baseline first, but ceremonial and blocks on repo/URL ask."
+  ],
+  [
+   "judge3",
+   "S12",
+   "A-surgical",
+   100.0,
+   9,
+   "Device x network x cache matrix, hard warm target, one commit per technique with gain."
+  ],
+  [
+   "judge3",
+   "S12",
+   "v2.2",
+   100.0,
+   9,
+   "Clear numeric targets, medians over 5 runs, computes remaining physical floor."
+  ],
+  [
+   "judge3",
+   "S12",
+   "B-spine",
+   100.0,
+   9,
+   "One-frame target for warm loads, checks proven on slowed build, parallel levers measured."
+  ],
+  [
+   "judge3",
+   "S12",
+   "C-minimal",
+   100.0,
+   8,
+   "Matrix and failing perf budget; warm-cache LCP <1s target is soft."
+  ],
+  [
+   "judge3",
+   "S12",
+   "D-field-guide",
+   100.0,
+   9,
+   "Hard targets, divergent strategy prototypes measured on same harness, before/after recordings."
+  ]
+ ]
+}

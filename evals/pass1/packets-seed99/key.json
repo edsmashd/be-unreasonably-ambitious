@@ -1,0 +1,110 @@
+{
+ "S01": {
+  "A": "control-original",
+  "B": "C-minimal",
+  "C": "A-surgical",
+  "D": "control-none",
+  "E": "B-spine",
+  "F": "v2.2",
+  "G": "D-field-guide"
+ },
+ "S02": {
+  "A": "v2.2",
+  "B": "control-original",
+  "C": "control-none",
+  "D": "D-field-guide",
+  "E": "C-minimal",
+  "F": "A-surgical",
+  "G": "B-spine"
+ },
+ "S03": {
+  "A": "v2.2",
+  "B": "A-surgical",
+  "C": "C-minimal",
+  "D": "control-original",
+  "E": "B-spine",
+  "F": "D-field-guide",
+  "G": "control-none"
+ },
+ "S04": {
+  "A": "control-original",
+  "B": "control-none",
+  "C": "A-surgical",
+  "D": "B-spine",
+  "E": "D-field-guide",
+  "F": "C-minimal",
+  "G": "v2.2"
+ },
+ "S05": {
+  "A": "v2.2",
+  "B": "D-field-guide",
+  "C": "A-surgical",
+  "D": "C-minimal",
+  "E": "control-none",
+  "F": "B-spine",
+  "G": "control-original"
+ },
+ "S06": {
+  "A": "control-original",
+  "B": "control-none",
+  "C": "B-spine",
+  "D": "A-surgical",
+  "E": "v2.2",
+  "F": "C-minimal",
+  "G": "D-field-guide"
+ },
+ "S07": {
+  "A": "control-none",
+  "B": "v2.2",
+  "C": "control-original",
+  "D": "A-surgical",
+  "E": "C-minimal",
+  "F": "B-spine",
+  "G": "D-field-guide"
+ },
+ "S08": {
+  "A": "B-spine",
+  "B": "control-original",
+  "C": "v2.2",
+  "D": "C-minimal",
+  "E": "A-surgical",
+  "F": "D-field-guide",
+  "G": "control-none"
+ },
+ "S09": {
+  "A": "control-none",
+  "B": "A-surgical",
+  "C": "C-minimal",
+  "D": "v2.2",
+  "E": "D-field-guide",
+  "F": "B-spine",
+  "G": "control-original"
+ },
+ "S10": {
+  "A": "control-none",
+  "B": "C-minimal",
+  "C": "D-field-guide",
+  "D": "B-spine",
+  "E": "control-original",
+  "F": "v2.2",
+  "G": "A-surgical"
+ },
+ "S11": {
+  "A": "C-minimal",
+  "B": "control-none",
+  "C": "control-original",
+  "D": "B-spine",
+  "E": "v2.2",
+  "F": "D-field-guide",
+  "G": "A-surgical"
+ },
+ "S12": {
+  "A": "control-none",
+  "B": "control-original",
+  "C": "A-surgical",
+  "D": "v2.2",
+  "E": "B-spine",
+  "F": "C-minimal",
+  "G": "D-field-guide"
+ }
+}

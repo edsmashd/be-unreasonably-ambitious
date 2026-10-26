@@ -1,0 +1,74 @@
+{
+ "S01": {
+  "A": "control-none",
+  "B": "v3",
+  "C": "B-spine",
+  "D": "v2.2"
+ },
+ "S02": {
+  "A": "B-spine",
+  "B": "v3",
+  "C": "control-none",
+  "D": "v2.2"
+ },
+ "S03": {
+  "A": "control-none",
+  "B": "v3",
+  "C": "B-spine",
+  "D": "v2.2"
+ },
+ "S04": {
+  "A": "v3",
+  "B": "B-spine",
+  "C": "control-none",
+  "D": "v2.2"
+ },
+ "S05": {
+  "A": "B-spine",
+  "B": "v3",
+  "C": "v2.2",
+  "D": "control-none"
+ },
+ "S06": {
+  "A": "control-none",
+  "B": "v2.2",
+  "C": "v3",
+  "D": "B-spine"
+ },
+ "S07": {
+  "A": "v2.2",
+  "B": "B-spine",
+  "C": "control-none",
+  "D": "v3"
+ },
+ "S08": {
+  "A": "v2.2",
+  "B": "B-spine",
+  "C": "control-none",
+  "D": "v3"
+ },
+ "S09": {
+  "A": "v2.2",
+  "B": "v3",
+  "C": "B-spine",
+  "D": "control-none"
+ },
+ "S10": {
+  "A": "v3",
+  "B": "B-spine",
+  "C": "v2.2",
+  "D": "control-none"
+ },
+ "S11": {
+  "A": "B-spine",
+  "B": "control-none",
+  "C": "v3",
+  "D": "v2.2"
+ },
+ "S12": {
+  "A": "B-spine",
+  "B": "control-none",
+  "C": "v3",
+  "D": "v2.2"
+ }
+}

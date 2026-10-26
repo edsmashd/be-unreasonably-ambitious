@@ -1,0 +1,110 @@
+{
+ "S01": {
+  "A": "control-original",
+  "B": "v2.2",
+  "C": "control-none",
+  "D": "A-surgical",
+  "E": "D-field-guide",
+  "F": "B-spine",
+  "G": "C-minimal"
+ },
+ "S02": {
+  "A": "D-field-guide",
+  "B": "v2.2",
+  "C": "control-original",
+  "D": "B-spine",
+  "E": "A-surgical",
+  "F": "control-none",
+  "G": "C-minimal"
+ },
+ "S03": {
+  "A": "C-minimal",
+  "B": "control-original",
+  "C": "control-none",
+  "D": "B-spine",
+  "E": "A-surgical",
+  "F": "v2.2",
+  "G": "D-field-guide"
+ },
+ "S04": {
+  "A": "D-field-guide",
+  "B": "control-original",
+  "C": "C-minimal",
+  "D": "B-spine",
+  "E": "v2.2",
+  "F": "control-none",
+  "G": "A-surgical"
+ },
+ "S05": {
+  "A": "B-spine",
+  "B": "C-minimal",
+  "C": "control-original",
+  "D": "A-surgical",
+  "E": "D-field-guide",
+  "F": "v2.2",
+  "G": "control-none"
+ },
+ "S06": {
+  "A": "control-original",
+  "B": "v2.2",
+  "C": "A-surgical",
+  "D": "D-field-guide",
+  "E": "C-minimal",
+  "F": "B-spine",
+  "G": "control-none"
+ },
+ "S07": {
+  "A": "D-field-guide",
+  "B": "control-original",
+  "C": "A-surgical",
+  "D": "B-spine",
+  "E": "v2.2",
+  "F": "C-minimal",
+  "G": "control-none"
+ },
+ "S08": {
+  "A": "B-spine",
+  "B": "D-field-guide",
+  "C": "v2.2",
+  "D": "control-original",
+  "E": "control-none",
+  "F": "A-surgical",
+  "G": "C-minimal"
+ },
+ "S09": {
+  "A": "A-surgical",
+  "B": "C-minimal",
+  "C": "control-original",
+  "D": "v2.2",
+  "E": "D-field-guide",
+  "F": "B-spine",
+  "G": "control-none"
+ },
+ "S10": {
+  "A": "B-spine",
+  "B": "control-original",
+  "C": "A-surgical",
+  "D": "v2.2",
+  "E": "C-minimal",
+  "F": "D-field-guide",
+  "G": "control-none"
+ },
+ "S11": {
+  "A": "control-none",
+  "B": "v2.2",
+  "C": "D-field-guide",
+  "D": "C-minimal",
+  "E": "A-surgical",
+  "F": "B-spine",
+  "G": "control-original"
+ },
+ "S12": {
+  "A": "B-spine",
+  "B": "A-surgical",
+  "C": "control-none",
+  "D": "v2.2",
+  "E": "D-field-guide",
+  "F": "control-original",
+  "G": "C-minimal"
+ }
+}

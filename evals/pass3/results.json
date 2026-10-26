@@ -1,0 +1,66 @@
+{
+ "summary": {
+  "v3.0": {
+   "rubric_pct": 92.5,
+   "overall": 7.33,
+   "min_overall": 7,
+   "n": 3
+  },
+  "v3.1": {
+   "rubric_pct": 100.0,
+   "overall": 9,
+   "min_overall": 9,
+   "n": 3
+  }
+ },
+ "rows": [
+  [
+   "judgeC",
+   "S06",
+   "v3.0",
+   87.5,
+   8,
+   "Solid free-first plan with animatic and per-shot quote; no explicit side-by-side concept comparison for the user before spend."
+  ],
+  [
+   "judgeC",
+   "S06",
+   "v3.1",
+   100.0,
+   9,
+   "Free divergent treatments, compare.html for choosing, itemised quote with balance check and retry allowance before any credit spend."
+  ],
+  [
+   "judgeC",
+   "S08",
+   "v3.0",
+   90.0,
+   7,
+   "Strong claim checking and counter-case search, but delivers local HTML rather than WordPress-ready blocks."
+  ],
+  [
+   "judgeC",
+   "S08",
+   "v3.1",
+   100.0,
+   9,
+   "Primary-source claim table, Gutenberg blocks validated in throwaway WP, skeptical-dietitian red team, contraindication note; nothing live without asking."
+  ],
+  [
+   "judgeC",
+   "S10",
+   "v3.1",
+   100.0,
+   9,
+   "Full contract with 4h budget, VM-only scope, before/after repro, linked matrix, recording, setup rebuild proof; branches stay local."
+  ],
+  [
+   "judgeC",
+   "S10",
+   "v3.0",
+   100.0,
+   7,
+   "Good contract and proof plan, but would push feature branch to remote without asking, an unasked shared-state action."
+  ]
+ ]
+}

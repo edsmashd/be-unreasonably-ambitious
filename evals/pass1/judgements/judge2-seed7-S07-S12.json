@@ -1,0 +1,56 @@
+{
+"S07": {
+"A": {"rubric": [1,1,1,1,1,1], "overall": 9, "note": "Tight one-block prompt with real raw material, scored variants, claim table and cold-reader judge; minimal commentary."},
+"B": {"rubric": [1,1,1,1,0,0.5], "overall": 5, "note": "Decent prompt but buried under types/plan ceremony; no variants or destination format."},
+"C": {"rubric": [1,1,1,1,1,1], "overall": 8, "note": "Strong prompt: raw sources, divergent openings, claim table, CMS preview judge; CMS access may be assumed."},
+"D": {"rubric": [1,1,1,1,1,1], "overall": 8, "note": "Thorough prompt with angles, sourcing, scored revision loop and clear pass; slightly long."},
+"E": {"rubric": [1,1,1,1,1,1], "overall": 9, "note": "Concise, ambitious prompt: variants with fresh judge, claim checks, finished blog format, four-part pass."},
+"F": {"rubric": [0.5,0.5,0,0,0,0.5], "overall": 3, "note": "Launches a costly eval pipeline with made-up specs instead of the asked rewrite; no prompt delivered."},
+"G": {"rubric": [1,0,0.5,0.5,0,0.5], "overall": 4, "note": "Generic template-style prompt, unfenced, long commentary, weak judge and no ambitious asks."}
+},
+"S08": {
+"A": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Claim ledger with passages, fresh re-check, WP block HTML preview, safety section; asks before touching WordPress."},
+"B": {"rubric": [1,0.5,1,1,1], "overall": 8, "note": "Rigorous sourcing with seeded-bad check and variants; WordPress-native format less explicit."},
+"C": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Full contract: primary studies, Gutenberg blocks, scored variants, medical-reviewer note, budget, skips video."},
+"D": {"rubric": [1,0.5,1,0,1], "overall": 6, "note": "Good evidence rigor but prompt-rewrite ceremony on a doing task; no variants or block format."},
+"E": {"rubric": [1,1,1,0.5,1], "overall": 6, "note": "Solid normal plan but creates WordPress draft without asking, SEO padding, no claim table or criterion."},
+"F": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Evidence table, fresh-reviewer pick, WP blocks with phone preview; audit sample somewhat small."},
+"G": {"rubric": [1,1,1,0.5,1], "overall": 8, "note": "Refutation fact-checker with seeded false claim and WP preview; angles lack stated criterion."}
+},
+"S09": {
+"A": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Data-quality first, reconciled waterfall, change-point and alternatives tested; no placebo or holdout."},
+"B": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Plants a synthetic drop to prove the method, full matrix, independent hypothesis tests, tracking checks."},
+"C": {"rubric": [1,0.5,1,1,1], "overall": 7, "note": "Holdout and backtested detector are ambitious, but ceremony and only the leading explanation tested."},
+"D": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Reconciles the 18%, placebo month, disproof subagent, tracking-break checks; tight contract."},
+"E": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Two independent methods, holdout, instrumentation-first, one-command reproduction; strong outside checks."},
+"F": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Parallel hypothesis families each falsifiable, placebo, fresh recompute of numbers."},
+"G": {"rubric": [1,1,0.5,1,1], "overall": 6, "note": "Competent standard analysis; lacks placebo/holdout or planted check, little beyond normal job."}
+},
+"S10": {
+"A": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Complete contract with 6h budget, VM-only scope, repro-before-fix, matrix and recording, Needs you."},
+"B": {"rubric": [0.5,1,0.5,1,0.5], "overall": 5, "note": "Ambitious but ceremonial; opens a merge request unasked, no budget, stop rule or recording."},
+"C": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Strong contract and version-by-auth matrix with evidence; allows pushing a feature branch."},
+"D": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Precise contract, 4h budget, failure clip then fix, matrix and breaking attempts, clear Needs you."},
+"E": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Good contract with rebuild script, fail-first E2E and matrix; slightly thinner than best."},
+"F": {"rubric": [0.5,1,1,1,1], "overall": 8, "note": "Strong proof and safety limits, design options; no explicit time budget."},
+"G": {"rubric": [0,0.5,0.5,1,0.5], "overall": 5, "note": "Plain plan, no contract or judge; pushes branches and opens PRs without asking."}
+},
+"S11": {
+"A": {"rubric": [0.5,0,0.5,0.5,1], "overall": 5, "note": "Competent normal deck plan; leans on last template, self-QA only, no red team."},
+"B": {"rubric": [0.5,0.5,1,1,1], "overall": 7, "note": "Source tracing, reconciliation and board-member reviewer; storylines tied to choice but decisions less explicit."},
+"C": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Decisions with options, short-seller red team, planted-error trace check, 5-second test; lean."},
+"D": {"rubric": [0.5,0.5,1,1,1], "overall": 7, "note": "Blind recompute with seeded error and reconciliation; decisions deferred to user, light on field methods."},
+"E": {"rubric": [1,0.5,1,1,1], "overall": 8, "note": "Board-first framing, raw-data metrics, reconciliation with bad-number check; red team missing."},
+"F": {"rubric": [0.5,1,1,1,1], "overall": 8, "note": "Number ledger, fresh recompute, investor/forensic red team; decisions framed only as asks."},
+"G": {"rubric": [1,1,1,1,1], "overall": 7, "note": "Hits every rubric item but heavy ceremony and an unneeded rewritten prompt for a doing task."}
+},
+"S12": {
+"A": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Honest physics framing, sub-frame target, full baseline matrix, checks proven to fail, no infra changes."},
+"B": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Clear matrix, measured passes per commit, honest about cold-load limits; targets a bit loose."},
+"C": {"rubric": [0.5,1,0.5,1,1], "overall": 5, "note": "Measures first but vague targets, undefined device profiles, timid 'realistic' framing, opens PR."},
+"D": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Concrete targets, 5-run medians, baseline first, floor computed; solid but conventional."},
+"E": {"rubric": [1,1,1,1,1], "overall": 9, "note": "Hard targets, parallel strategy prototypes, can-fail measurement check, side-by-side recordings."},
+"F": {"rubric": [1,1,1,1,1], "overall": 6, "note": "Honest dual target but blocks on asking for repo, plus prompt-rewrite ceremony."},
+"G": {"rubric": [1,1,1,1,1], "overall": 8, "note": "Full matrix, failing perf budget first, breaking attempts; warm-cache LCP target weak."}
+}
+}

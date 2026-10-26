@@ -1,0 +1,14 @@
+{
+  "name": "be-unreasonably-ambitious",
+  "description": "A Claude skill that asks for what you would never ask a human helper, and proves the result.",
+  "owner": {
+    "name": "Edward"
+  },
+  "plugins": [
+    {
+      "name": "be-unreasonably-ambitious",
+      "source": "./plugins/be-unreasonably-ambitious",
+      "description": "Scales a task past what you would ask of a human helper: divergent variants, test matrices with evidence in each cell, work taken to its destination, and proof instead of claims."
+    }
+  ]
+}

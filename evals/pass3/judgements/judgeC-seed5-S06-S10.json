@@ -1,0 +1,14 @@
+{
+  "S06": {
+    "A": {"rubric": [1, 1, 0.5, 1], "overall": 8, "note": "Solid free-first plan with animatic and per-shot quote; no explicit side-by-side concept comparison for the user before spend."},
+    "B": {"rubric": [1, 1, 1, 1], "overall": 9, "note": "Free divergent treatments, compare.html for choosing, itemised quote with balance check and retry allowance before any credit spend."}
+  },
+  "S08": {
+    "A": {"rubric": [1, 0.5, 1, 1, 1], "overall": 7, "note": "Strong claim checking and counter-case search, but delivers local HTML rather than WordPress-ready blocks."},
+    "B": {"rubric": [1, 1, 1, 1, 1], "overall": 9, "note": "Primary-source claim table, Gutenberg blocks validated in throwaway WP, skeptical-dietitian red team, contraindication note; nothing live without asking."}
+  },
+  "S10": {
+    "A": {"rubric": [1, 1, 1, 1, 1], "overall": 9, "note": "Full contract with 4h budget, VM-only scope, before/after repro, linked matrix, recording, setup rebuild proof; branches stay local."},
+    "B": {"rubric": [1, 1, 1, 1, 1], "overall": 7, "note": "Good contract and proof plan, but would push feature branch to remote without asking, an unasked shared-state action."}
+  }
+}

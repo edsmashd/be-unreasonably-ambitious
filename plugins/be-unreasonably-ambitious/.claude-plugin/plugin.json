@@ -1,0 +1,10 @@
+{
+  "name": "be-unreasonably-ambitious",
+  "version": "3.1.0",
+  "description": "Scales a task past what you would ask of a human helper: divergent variants, test matrices with evidence in each cell, work taken to its destination, and proof instead of claims.",
+  "author": {
+    "name": "Edward"
+  },
+  "license": "MIT",
+  "keywords": ["ambition", "agents", "verification", "variants", "skills"]
+}

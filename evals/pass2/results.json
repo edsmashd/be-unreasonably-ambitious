@@ -1,0 +1,798 @@
+{
+ "summary": {
+  "B-spine": {
+   "rubric_pct": 95.7,
+   "overall": 8.46,
+   "min_overall": 7,
+   "n": 24
+  },
+  "control-none": {
+   "rubric_pct": 67.5,
+   "overall": 5.08,
+   "min_overall": 4,
+   "n": 24
+  },
+  "v2.2": {
+   "rubric_pct": 95.9,
+   "overall": 8.33,
+   "min_overall": 7,
+   "n": 24
+  },
+  "v3": {
+   "rubric_pct": 96.2,
+   "overall": 8.79,
+   "min_overall": 8,
+   "n": 24
+  }
+ },
+ "rows": [
+  [
+   "judgeA",
+   "S01",
+   "B-spine",
+   100.0,
+   9,
+   "Divergent briefs, real-size comparison, checks proven to fail, blind pick plus merge, A/B sizing; scale justified."
+  ],
+  [
+   "judgeA",
+   "S01",
+   "control-none",
+   35.714285714285715,
+   4,
+   "Single conventional redesign; no variants, comparison or judge. Timid normal-job plan despite ambition request."
+  ],
+  [
+   "judgeA",
+   "S01",
+   "v2.2",
+   92.85714285714286,
+   8,
+   "Strong variants and checks, but the winner pick has no named independent judge; some contract ceremony."
+  ],
+  [
+   "judgeA",
+   "S01",
+   "v3",
+   100.0,
+   9,
+   "Clear criterion written first, blind subagent pick, checks run on original, honest about conversion proof."
+  ],
+  [
+   "judgeA",
+   "S02",
+   "control-none",
+   58.333333333333336,
+   6,
+   "Solid log-first debugging but no fail-before/pass-after proof, no matrix, rollout plan vague."
+  ],
+  [
+   "judgeA",
+   "S02",
+   "B-spine",
+   91.66666666666667,
+   8,
+   "Competing hypotheses tested on logs, regression proven to fail, matrix; lacks explicit staged rollout plan."
+  ],
+  [
+   "judgeA",
+   "S02",
+   "v2.2",
+   100.0,
+   9,
+   "Matched failing vs successful samples, harness flip, matrix, staged rollout, asks before staging deploy."
+  ],
+  [
+   "judgeA",
+   "S02",
+   "v3",
+   100.0,
+   9,
+   "Thorough harness and matrix, checks second damage, flag-gated rollout proposal; careful data-export limits."
+  ],
+  [
+   "judgeA",
+   "S03",
+   "B-spine",
+   90.0,
+   7,
+   "Correct and cheap extra, but mini-contract bullets are ceremony for a typo."
+  ],
+  [
+   "judgeA",
+   "S03",
+   "v3",
+   100.0,
+   9,
+   "Two-line report sent after work, repo-wide sweep, says nothing more needed."
+  ],
+  [
+   "judgeA",
+   "S03",
+   "v2.2",
+   100.0,
+   9,
+   "One-line reply, fix plus repo sweep, guards identifiers. Right-sized."
+  ],
+  [
+   "judgeA",
+   "S03",
+   "control-none",
+   75.0,
+   5,
+   "Claims 'Done' up front before actions; only checks README, misses repo-wide sweep."
+  ],
+  [
+   "judgeA",
+   "S04",
+   "v2.2",
+   87.5,
+   8,
+   "Quick and safe; a few small extras beyond one, but short and appropriate."
+  ],
+  [
+   "judgeA",
+   "S04",
+   "v3",
+   87.5,
+   8,
+   "Short post-work report; collision, grep and tests are slightly more than one extra."
+  ],
+  [
+   "judgeA",
+   "S04",
+   "B-spine",
+   87.5,
+   8,
+   "Names the one check that matters, short; still runs several small extras."
+  ],
+  [
+   "judgeA",
+   "S04",
+   "control-none",
+   87.5,
+   4,
+   "Reply says 'Done' and claims checks before actions run; fake proof."
+  ],
+  [
+   "judgeA",
+   "S05",
+   "control-none",
+   90.0,
+   6,
+   "Safe gating of deploy and email, but single redesign, no variants; asks setup questions."
+  ],
+  [
+   "judgeA",
+   "S05",
+   "v3",
+   100.0,
+   9,
+   "Variants, blind pick, checks, staged rollout plan; deploy and email clearly gated."
+  ],
+  [
+   "judgeA",
+   "S05",
+   "B-spine",
+   100.0,
+   9,
+   "Big local work, preview deploy only, test send asked, prod and list send gated."
+  ],
+  [
+   "judgeA",
+   "S05",
+   "v2.2",
+   100.0,
+   8,
+   "Good scale and gating; winner pick lacks an independent judge."
+  ],
+  [
+   "judgeA",
+   "S06",
+   "v3",
+   87.5,
+   9,
+   "Free animatic plus blind-picked treatments and per-shot quote before any credit spend."
+  ],
+  [
+   "judgeA",
+   "S06",
+   "control-none",
+   62.5,
+   4,
+   "Spends credits on keyframe stills before approval; only 2-3 concepts; asks questions."
+  ],
+  [
+   "judgeA",
+   "S06",
+   "v2.2",
+   100.0,
+   8,
+   "Five concepts with comparison page and quotes; no credits spent. Some contract ceremony."
+  ],
+  [
+   "judgeA",
+   "S06",
+   "B-spine",
+   100.0,
+   9,
+   "Wide free directions, comparison with per-shot quotes, test-shot option gated on budget."
+  ],
+  [
+   "judgeA",
+   "S07",
+   "control-none",
+   41.666666666666664,
+   4,
+   "Long template, not fenced, heavy commentary, no goal-beyond-goal or explicit pass."
+  ],
+  [
+   "judgeA",
+   "S07",
+   "B-spine",
+   100.0,
+   9,
+   "Tight prompt with angles, sourced claims, scored revision loop and explicit pass."
+  ],
+  [
+   "judgeA",
+   "S07",
+   "v2.2",
+   100.0,
+   9,
+   "Variants with fresh judge, claim tracing, blog-format destination, four-part pass."
+  ],
+  [
+   "judgeA",
+   "S07",
+   "v3",
+   100.0,
+   9,
+   "Criterion first, claim table, phone check, clear done definition, no publishing."
+  ],
+  [
+   "judgeA",
+   "S08",
+   "control-none",
+   90.0,
+   6,
+   "Good sourcing and safety; titles without criterion; creates WP draft without asking."
+  ],
+  [
+   "judgeA",
+   "S08",
+   "v3",
+   90.0,
+   8,
+   "Primary sources plus counter-case search, blind headline pick; local HTML not explicitly WP blocks."
+  ],
+  [
+   "judgeA",
+   "S08",
+   "v2.2",
+   100.0,
+   9,
+   "Claims table from primary studies, Gutenberg blocks, headline variants with criterion, health care noted."
+  ],
+  [
+   "judgeA",
+   "S08",
+   "B-spine",
+   90.0,
+   8,
+   "Strong claim ledger and re-check; varies structures, not headlines/openings."
+  ],
+  [
+   "judgeA",
+   "S09",
+   "control-none",
+   80.0,
+   6,
+   "Sensible data-first plan incl. tracking check, but no placebo/holdout or explicit hypothesis tests."
+  ],
+  [
+   "judgeA",
+   "S09",
+   "v2.2",
+   90.0,
+   8,
+   "Reconciles figure, placebo month, disproof subagent, tracking check; hypotheses not enumerated."
+  ],
+  [
+   "judgeA",
+   "S09",
+   "v3",
+   90.0,
+   9,
+   "Two independent methods must agree plus held-out split; artefacts checked first."
+  ],
+  [
+   "judgeA",
+   "S09",
+   "B-spine",
+   100.0,
+   9,
+   "Explicit hypothesis families each with rejectable test, placebo, recompute by fresh subagent."
+  ],
+  [
+   "judgeA",
+   "S10",
+   "v3",
+   100.0,
+   9,
+   "Full contract, VM-only scope, repro before/after, matrix and recording; Needs you list."
+  ],
+  [
+   "judgeA",
+   "S10",
+   "B-spine",
+   100.0,
+   9,
+   "Complete contract, break-it attempts, recording, push gated into Needs you."
+  ],
+  [
+   "judgeA",
+   "S10",
+   "v2.2",
+   100.0,
+   9,
+   "Contract with budget, rebuild scripts, matrix and recording, nothing pushed without asking."
+  ],
+  [
+   "judgeA",
+   "S10",
+   "control-none",
+   60.0,
+   5,
+   "No judge, stop rule or budget; weak proof; pushes and opens draft PRs unasked."
+  ],
+  [
+   "judgeA",
+   "S11",
+   "B-spine",
+   90.0,
+   8,
+   "Ledger, reconciliation, recompute and investor/CFO red team; board decisions not central."
+  ],
+  [
+   "judgeA",
+   "S11",
+   "v2.2",
+   80.0,
+   7,
+   "Source table and reconciliation, board-member reviewer; lighter on real methods."
+  ],
+  [
+   "judgeA",
+   "S11",
+   "control-none",
+   60.0,
+   5,
+   "Competent normal-job deck plan; no red team or outside judge; asks questions."
+  ],
+  [
+   "judgeA",
+   "S11",
+   "v3",
+   100.0,
+   9,
+   "Built around board decisions, two red teams incl. short seller, raw recompute, 5-second test."
+  ],
+  [
+   "judgeA",
+   "S12",
+   "v3",
+   100.0,
+   9,
+   "Honest floor, hard targets per cell, harness proven to catch regression, baseline first."
+  ],
+  [
+   "judgeA",
+   "S12",
+   "B-spine",
+   100.0,
+   9,
+   "One-frame target for warm loads, full matrix, checks proven on slowed build, honest limits."
+  ],
+  [
+   "judgeA",
+   "S12",
+   "v2.2",
+   100.0,
+   8,
+   "Clear targets and matrix with medians, baseline first; slightly less ambitious layer."
+  ],
+  [
+   "judgeA",
+   "S12",
+   "control-none",
+   80.0,
+   6,
+   "Honest and measures first, but vague targets and undefined devices/networks; generic plan."
+  ],
+  [
+   "judgeB",
+   "S01",
+   "control-none",
+   42.857142857142854,
+   4,
+   "Single redesign with good checks and A/B ideas, but no divergent variants, comparison, judge or scale reasoning."
+  ],
+  [
+   "judgeB",
+   "S01",
+   "v3",
+   100.0,
+   9,
+   "Divergent briefs, real-size compare page, checks proven on original, blind judge, honest about conversion proof."
+  ],
+  [
+   "judgeB",
+   "S01",
+   "B-spine",
+   100.0,
+   9,
+   "Full contract: divergent briefs, comparison page, baseline checks, blind pick, merge, sample-size A/B plan."
+  ],
+  [
+   "judgeB",
+   "S01",
+   "v2.2",
+   92.85714285714286,
+   7,
+   "Strong variants and checks, but agent picks winner without a stated criterion or independent judge; adds tracking unasked."
+  ],
+  [
+   "judgeB",
+   "S02",
+   "B-spine",
+   91.66666666666667,
+   8,
+   "Log-first, competing hypotheses, fail-before test, matrix; no explicit staged production rollout plan."
+  ],
+  [
+   "judgeB",
+   "S02",
+   "v3",
+   100.0,
+   9,
+   "Raw-log comparison, harness, sized matrix, flag-gated staged rollout with monitor and rollback; asks before prod."
+  ],
+  [
+   "judgeB",
+   "S02",
+   "control-none",
+   58.333333333333336,
+   5,
+   "Sensible normal plan but no matrix, no proven-failing test, vague rollout, opens PR unasked."
+  ],
+  [
+   "judgeB",
+   "S02",
+   "v2.2",
+   100.0,
+   9,
+   "Matched failing vs successful sample, harness, matrix, 5/50/100 staged rollout; asks even before staging deploy."
+  ],
+  [
+   "judgeB",
+   "S03",
+   "control-none",
+   87.5,
+   6,
+   "Short, but claims 'Done' before actions run and only checks README, not the repo."
+  ],
+  [
+   "judgeB",
+   "S03",
+   "v3",
+   100.0,
+   9,
+   "Two-line report sent after work, repo-wide sweep, leaves code identifiers alone."
+  ],
+  [
+   "judgeB",
+   "S03",
+   "B-spine",
+   87.5,
+   7,
+   "Right work, but adds a mini Deliver/Judge/Stop contract to a typo fix."
+  ],
+  [
+   "judgeB",
+   "S03",
+   "v2.2",
+   100.0,
+   9,
+   "One-line reply, repo sweep, safe handling of identifiers, two-line report."
+  ],
+  [
+   "judgeB",
+   "S04",
+   "v3",
+   87.5,
+   8,
+   "Prompt rename, report sent after; a few extra checks beyond one, but all cheap."
+  ],
+  [
+   "judgeB",
+   "S04",
+   "B-spine",
+   87.5,
+   8,
+   "Short, sensible collision check plus compile/tests; slightly more than one extra."
+  ],
+  [
+   "judgeB",
+   "S04",
+   "control-none",
+   75.0,
+   5,
+   "Reply says 'Done' and parses before any action runs: fake proof."
+  ],
+  [
+   "judgeB",
+   "S04",
+   "v2.2",
+   87.5,
+   8,
+   "Short, scope-aware rename with cheap checks and brief report."
+  ],
+  [
+   "judgeB",
+   "S05",
+   "B-spine",
+   100.0,
+   9,
+   "Big local variant work, clean gates on prod and email, even test send asked first."
+  ],
+  [
+   "judgeB",
+   "S05",
+   "v3",
+   100.0,
+   9,
+   "Divergent variants, blind judge, staged rollout plan; prod, email and list all gated."
+  ],
+  [
+   "judgeB",
+   "S05",
+   "v2.2",
+   100.0,
+   8,
+   "Good scale and gates; winner pick lacks independent judge or stated criterion."
+  ],
+  [
+   "judgeB",
+   "S05",
+   "control-none",
+   80.0,
+   5,
+   "Gates risky steps but single redesign, no variants, and leads with blocking setup questions."
+  ],
+  [
+   "judgeB",
+   "S06",
+   "control-none",
+   62.5,
+   4,
+   "Generates keyframe stills before budget approval, only 2-3 concepts, no comparison page."
+  ],
+  [
+   "judgeB",
+   "S06",
+   "v2.2",
+   100.0,
+   9,
+   "Five divergent concepts, comparison page with per-concept quotes, no spend until budget approved."
+  ],
+  [
+   "judgeB",
+   "S06",
+   "v3",
+   87.5,
+   8,
+   "Free animatic and blind treatment pick are strong; user sees less of a concept comparison."
+  ],
+  [
+   "judgeB",
+   "S06",
+   "B-spine",
+   100.0,
+   9,
+   "Wide free directions, costed comparison, test-shot option, all spend gated."
+  ],
+  [
+   "judgeB",
+   "S07",
+   "v2.2",
+   100.0,
+   9,
+   "Tight fenced prompt with variants, fresh-reader judge, claim tracing, destination format and clear pass."
+  ],
+  [
+   "judgeB",
+   "S07",
+   "B-spine",
+   100.0,
+   8,
+   "Thorough prompt with sourcing and pass criteria; judge is self-scoring, prompt a bit long."
+  ],
+  [
+   "judgeB",
+   "S07",
+   "control-none",
+   33.333333333333336,
+   4,
+   "Conventional template, not fenced, no goal line, long commentary, no variants or real pass test."
+  ],
+  [
+   "judgeB",
+   "S07",
+   "v3",
+   100.0,
+   9,
+   "Concise prompt: criterion first, variants, claim table, phone check, explicit done-means."
+  ],
+  [
+   "judgeB",
+   "S08",
+   "v2.2",
+   100.0,
+   9,
+   "Primary-source claims table, Gutenberg blocks, headline variants with criterion, safety section, publish gated."
+  ],
+  [
+   "judgeB",
+   "S08",
+   "B-spine",
+   90.0,
+   8,
+   "Strong claim ledger and sampled re-check; variants are structures, not headlines/openings."
+  ],
+  [
+   "judgeB",
+   "S08",
+   "control-none",
+   80.0,
+   6,
+   "Solid research, but creates WordPress draft unasked and no headline variants with criterion."
+  ],
+  [
+   "judgeB",
+   "S08",
+   "v3",
+   90.0,
+   9,
+   "Counter-case search, blind headline pick, full claim table; local HTML rather than explicit blocks."
+  ],
+  [
+   "judgeB",
+   "S09",
+   "v2.2",
+   90.0,
+   8,
+   "Reconcile, tracking check, placebo, disprove subagent; hypotheses framed as cuts rather than tested claims."
+  ],
+  [
+   "judgeB",
+   "S09",
+   "v3",
+   90.0,
+   9,
+   "Two independent methods must agree, holdout split, artefact check first; rigorous and lean."
+  ],
+  [
+   "judgeB",
+   "S09",
+   "B-spine",
+   100.0,
+   9,
+   "Explicit hypothesis families each with rejecting test, placebo, independent recompute."
+  ],
+  [
+   "judgeB",
+   "S09",
+   "control-none",
+   80.0,
+   6,
+   "Competent normal analysis with integrity check, but no holdout, placebo or independent check."
+  ],
+  [
+   "judgeB",
+   "S10",
+   "v3",
+   100.0,
+   8,
+   "Full contract and proof plan; pushes feature branch to remote without asking."
+  ],
+  [
+   "judgeB",
+   "S10",
+   "B-spine",
+   100.0,
+   9,
+   "Complete contract, snapshot, break attempts, recording, all outward actions in Needs you."
+  ],
+  [
+   "judgeB",
+   "S10",
+   "v2.2",
+   100.0,
+   9,
+   "Clear contract, before/after recording, matrix, breaking attempts, VM-only scope."
+  ],
+  [
+   "judgeB",
+   "S10",
+   "control-none",
+   60.0,
+   5,
+   "No judge, stop rule or budget; weak proof; pushes branches and opens PRs unasked."
+  ],
+  [
+   "judgeB",
+   "S11",
+   "B-spine",
+   90.0,
+   8,
+   "Number ledger, recompute subagent, investor/CFO red team; decisions only implicit."
+  ],
+  [
+   "judgeB",
+   "S11",
+   "control-none",
+   60.0,
+   5,
+   "Normal deck plan; self-QA only, no red team or outside judge."
+  ],
+  [
+   "judgeB",
+   "S11",
+   "v3",
+   100.0,
+   9,
+   "Built around board decisions, short-seller red team, dual recompute, 5-second slide test."
+  ],
+  [
+   "judgeB",
+   "S11",
+   "v2.2",
+   80.0,
+   7,
+   "Source table and number-matching script; board-member reviewer only, decisions not central."
+  ],
+  [
+   "judgeB",
+   "S12",
+   "B-spine",
+   100.0,
+   9,
+   "Honest reframe, one-frame target, matrix judge proven to fail, baseline first."
+  ],
+  [
+   "judgeB",
+   "S12",
+   "control-none",
+   80.0,
+   6,
+   "Honest and sensible but vague targets, undefined device/network matrix, opens PR unasked."
+  ],
+  [
+   "judgeB",
+   "S12",
+   "v3",
+   100.0,
+   9,
+   "Hard numeric targets per cell, harness proven on regression, filmstrips, stale-auth caching care."
+  ],
+  [
+   "judgeB",
+   "S12",
+   "v2.2",
+   100.0,
+   8,
+   "Clear targets and matrix with baseline and per-commit measurement; slightly less proof rigor."
+  ]
+ ]
+}
